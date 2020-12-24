@@ -1,0 +1,12 @@
+<!--templates/detail_journal.html-->
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="jornal-entry">
+        <h2>{{ journal.journalname }}</h2>
+        <p>writed by {{ journal.editor }}</p>
+        <p>
+            {{ journal.quantity }}
+        </p>
+    </div>
+{% endblock content %}
