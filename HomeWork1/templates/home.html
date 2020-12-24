@@ -1,16 +1,9 @@
 <!--templates/home.html-->
-
 {% extends 'base.html' %}
 
-{% block content %}
+<h1>Home Page!</h1>
+<ul>
     {% for book in books %}
-        <div class = "book-entry">
-            <h2>
-                <a href="{% url 'detail_book' book.pk %}">{{ book.bookname }}</a>
-            </h2>
-            <p>
-                {{ book.rating }}
-            </p>
-        </div>
+        <li>{{ book }}</li> <!--А вот так оформляется вставка элемента-->
     {% endfor %}
-{% endblock content%}
+</ul>
