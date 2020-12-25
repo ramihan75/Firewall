@@ -26,4 +26,4 @@ class ItemCreateView(CreateView):
 class ItemDeleteView(DeleteView):
     model = Item
     template_name = "delete_item.html"
-    success_url = reverse_lazy("list_items")   
+    success_url = reverse_lazy("list_item")   
