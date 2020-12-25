@@ -1,0 +1,12 @@
+<!--templates/detail_book.html-->
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="book-entry">
+        <h2>{{ book.bookname }}</h2>
+        <p>writed by {{ book.authorbook }}</p>
+        <p>
+            {{ book.rating }}
+        </p>
+    </div>
+{% endblock content %}
