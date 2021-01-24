@@ -1,2 +1,2 @@
 # Firewall
-convert juniper srx to cisco asa per context
+conversion configuration juniper srx to cisco asa per context
