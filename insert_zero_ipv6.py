@@ -40,9 +40,6 @@ result_bin_wrap = ':'.join(wrap(result_bin, width=16))
 print(result_bin_wrap) # печать ipv6 адреса в двоичной форме с разделителем :
 
 
-config = '10.10.10.1/32'
-config = re.sub(r"([0-9]{1,3}[.][0-9]{1,3}[.][0-9]{1,3}[.][0-9]{1,3})(\/32)", r"\1 255.255.255.255", config)
-print(config)
 
 
 
